@@ -1,0 +1,15 @@
+# Local hosting identity and local-only state
+.openai/
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+.DS_Store
+
+# Unused files retained locally from the original forest prototype
+dist/script.js
+dist/cloud-renderer.*.js
+dist/terrain-renderer.*.js
+dist/fine-tuning-settings.*.js
+dist/perlite.*.js
